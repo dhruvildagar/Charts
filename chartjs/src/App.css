@@ -1,5 +1,5 @@
 .App {
-  height: 100vh;
+  height: 50px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -16,20 +16,60 @@
   border-radius: 0.5em;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 1em;
+  height: 16rem;
 }
 
 .revenueCard {
   width: 100%;
   height: 20rem;
+  border: black;
+  border-color: black;
+  border-style: inherit;
+  
+ 
 }
 
+
 .customerCard {
-  width: 50%;
+  display: flex;
   height: 20rem;
+  background-origin: padding-box;
+  border: black;
+  border-color: black;
+  border-style: inherit;
+  
 }
 
 .categoryCard {
-  width: 40%;
+  display: flex;
   height: 20rem;
+  background-origin: padding-box;
+  border: black;
+  border-color: black;
+  border-style: inherit;
 }
 
+
+
+
+.btn button {
+  background-color: #007bff; /* Blue */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn button:hover {
+  background-color: #0056b3; /* Darker Blue */
+}
+
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

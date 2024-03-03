@@ -99,7 +99,7 @@ function App() {
         </BarChart>
       </ResponsiveContainer>
 
-
+      <button style={{fontSize:50}} >Export</button>
       
     </div>
   );
